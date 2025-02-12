@@ -1,7 +1,9 @@
 .pixel {
-    background: #362;
+    background-color: black;
+    background: rgb(255, 255, 0);
     aspect-ratio: 1 / 1;
     flex: 1;
+    opacity: 1;
 }
 
 .row {
@@ -19,10 +21,14 @@
     max-height: 500px;
     max-width: 500px;
     margin: auto;
-    padding: 8px;
+    background: black;
 }
 
 body {
     text-align: center;
+    padding: 8px;
+}
+
+#changeGrid {
     padding: 8px;
 }
