@@ -1,6 +1,6 @@
 .pixel {
     background-color: black;
-    background: rgb(255, 255, 0);
+    background: rgb(255, 155, 22);
     aspect-ratio: 1 / 1;
     flex: 1;
     opacity: 1;
@@ -31,4 +31,5 @@ body {
 
 #changeGrid {
     padding: 8px;
+    margin: 4px;
 }
