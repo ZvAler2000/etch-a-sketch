@@ -1,16 +1,28 @@
 .pixel {
-    background-color: antiquewhite;
-    background: firebrick;
-    height: 2vw;
-    width: 2vw;
-    border: solid black;
+    background: #362;
+    aspect-ratio: 1 / 1;
+    flex: 1;
 }
 
 .row {
     display: flex;
     flex-direction: row;
+    flex: 1;
 }
 
-.grid {
-    
+#grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    aspect-ratio: 1 / 1;
+    max-height: 500px;
+    max-width: 500px;
+    margin: auto;
+    padding: 8px;
+}
+
+body {
+    text-align: center;
+    padding: 8px;
 }
