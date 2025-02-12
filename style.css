@@ -1,0 +1,16 @@
+.pixel {
+    background-color: antiquewhite;
+    background: firebrick;
+    height: 2vw;
+    width: 2vw;
+    border: solid black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid {
+    
+}
